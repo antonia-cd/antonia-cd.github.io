@@ -1,13 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Rubik+Vinyl&family=Ubuntu&display=swap');
+
+
 html{
+    background-color: #F3EFE9;
+
+}
+
+body {
+    margin: 0; 
 
 }
 
 header{
+    
 
 }
 
 nav{
-
+    width: 100%; 
+    margin: auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+   
+    
 }
 
 main{
@@ -16,5 +34,93 @@ main{
 
 footer{
 
+
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -3px;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -2px;
+}
+
+nav h2{
+    color: #F3EFE9;
+    text-decoration: none;
+}
+
+h2:hover{
+    color: #E04E14;
+}
+
+p{
+    font-family: Cormorant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+section{
+    margin: 9.25rem auto;
+    display: grid;
+    grid-template-columns: repeat (12, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow: dense;
     
 }
+
+#design_header {
+    width: 100%;
+    height: 10.25rem;
+    background-image: url('../img/design_rectangle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#art_header{
+    width: 100%;
+    height: 10.25rem;
+    background-image: url('../img/art_rectangle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contact_header{
+    width: 100%;
+    height: 10.25rem;
+    background-image: url('../img/contact_rectangle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about_header{
+    width: 100%;
+    height: 10.25rem;
+    background-image: url('../img/about_rectangle.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header img{
+    max-height: 100px;
+}
+
+
+
+/* flex-direction: row;
+    flex-basis: 2400px; height: 246px;
+    align-items: space-evenly;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; */
