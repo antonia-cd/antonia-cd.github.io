@@ -1,8 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Rubik+Vinyl&family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 
 
-html{
+  html{
     background-color: #F3EFE9;
 
 }
@@ -53,6 +54,7 @@ h2{
     font-weight: 300;
     line-height: normal;
     letter-spacing: -2px;
+    text-decoration: none;
 }
 
 nav h2{
@@ -65,7 +67,7 @@ h2:hover{
 }
 
 p{
-    font-family: Cormorant;
+    font-family: Cormorant, serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -78,7 +80,74 @@ section{
     grid-template-columns: repeat (12, 1fr);
     grid-column-gap: 1.5rem;
     grid-auto-flow: dense;
-    
+}
+
+#art_portfolio_title{
+    grid-column-start: 3;
+}
+
+#design_portfolio_title{
+    grid-column-start: 3;
+}
+
+#pic_of_me{
+   grid-column-start: 3;
+}
+
+#pic_of_me_description{
+    grid-column: 8/10;
+    max-width: 5fr;
+}
+
+#ap1_image{
+    grid-column-start:3;
+}
+
+#ap1_description{
+    grid-column: 4/10;
+}
+
+#ap2_image{
+    grid-column: 8;
+}
+
+#ap2_description{
+    grid-column-start: 6;
+    text-align: right;
+}
+
+#ap3_image{
+    grid-column-start:3;
+}
+
+#ap3_description{
+    grid-column: 4/10;
+}
+
+#ap4_image{
+    grid-column: 8;
+}
+
+#ap4_description{
+    grid-column-start: 6;
+    text-align: right;
+}
+
+#ap5_image{
+    grid-column-start:3;
+}
+
+#ap5_description{
+    grid-column: 4/10;
+}
+
+#ap6_image{
+    grid-column: 8;
+}
+
+#ap6_description{
+    grid-column-start: 6;
+    text-align: right;
 }
 
 #design_header {
