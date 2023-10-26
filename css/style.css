@@ -3,9 +3,8 @@
   @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 
 
-  html{
+html{
     background-color: #F3EFE9;
-
 }
 
 body {
@@ -14,7 +13,7 @@ body {
 }
 
 header{
-    
+  width: 100%;
 
 }
 
@@ -25,16 +24,19 @@ nav{
     flex-direction: row;
     justify-content: space-around; 
     align-items: center;
-   
-    
+}
+
+a {
+    text-decoration: none;
 }
 
 main{
-
+    max-width: 75rem;
+    margin: auto;
 }
 
 footer{
-
+    text-align: center;
 
 }
 
@@ -74,12 +76,28 @@ p{
     line-height: normal;
 }
 
+hr {
+    font-weight: 800;
+}
+
 section{
     margin: 9.25rem auto;
     display: grid;
     grid-template-columns: repeat (12, 1fr);
     grid-column-gap: 1.5rem;
     grid-auto-flow: dense;
+}
+
+#main_logo{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    background-color: #F3EFE9;
+}
+
+#white_edge_logo{
+    max-width: 10rem;
+    margin-top: 1rem;
 }
 
 #art_portfolio_title{
@@ -91,12 +109,19 @@ section{
 }
 
 #pic_of_me{
-   grid-column-start: 3;
+   grid-column: 3/5;
 }
 
 #pic_of_me_description{
-    grid-column: 8/10;
-    max-width: 5fr;
+    grid-column: 6/9;
+}
+
+#feeling_small_image{
+    grid-column-start:3;
+}
+
+#feeling_small_description{
+    grid-column: 4/10;
 }
 
 #ap1_image{
@@ -158,6 +183,10 @@ section{
     background-size: cover;
 }
 
+header h2{
+    margin-top: 50px;
+}
+
 #art_header{
     width: 100%;
     height: 10.25rem;
@@ -182,9 +211,6 @@ section{
     background-size: cover;
 }
 
-header img{
-    max-height: 100px;
-}
 
 
 
