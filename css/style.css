@@ -124,8 +124,22 @@ section{
     grid-column: 4/10;
 }
 
-#ap1_image{
+/*#ap1_image{
     grid-column-start:3;
+}*/
+
+.ap1_image{
+    background-image: url("/img/spider_sprite.png");
+    background-position: 0px 0px;
+    margin: auto;
+    margin-top: 10%;
+    height: 452px;
+    width:360px;
+}
+
+.ap1_image:hover{
+    background-image: url("/img/spider_sprite.png");
+    background-position: 0px -500px;
 }
 
 #ap1_description{
@@ -173,6 +187,16 @@ section{
 #ap6_description{
     grid-column-start: 6;
     text-align: right;
+}
+
+#awe_in_nature_image{
+    grid-column-start:3;
+    max-width: 30rem;
+}
+
+#the_sublime_wave_image{
+    max-width: 30rem;
+
 }
 
 #design_header {
