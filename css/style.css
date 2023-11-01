@@ -88,6 +88,10 @@ section{
     grid-auto-flow: dense;
 }
 
+.selected{
+    color: #E04E14;
+}
+
 #main_logo{
     text-align: center;
     margin: auto;
@@ -189,14 +193,50 @@ section{
     text-align: right;
 }
 
-#awe_in_nature_image{
-    grid-column-start:3;
-    max-width: 30rem;
+#awe_spread_images{
+    text-align: right;
+    grid-column: 8;
 }
 
-#the_sublime_wave_image{
-    max-width: 30rem;
+#awe_spread_description{
+    text-align: right;
+    grid-column-start: 6;
+}
 
+#awe_spread_2_images{
+    text-align:left;
+}
+
+    #awe_in_nature_image{
+        grid-column-start:3;
+        max-width: 300px;
+    }
+
+    #the_sublime_wave_image{
+        max-width: 300px;
+    }
+
+#awe_spread_2_description{
+    grid-column-start: 5;
+}
+
+#icon_image{
+    grid-column-start: 7;
+}
+
+#icon_description{
+    text-align: right;
+    grid-column: 2/6;
+}
+
+#the_feed_gif{
+    grid-column-start:2;
+    max-width: 300px;
+}
+
+#the_feed_description{
+    grid-column: 3/10;
+    text-decoration: none;
 }
 
 #design_header {
