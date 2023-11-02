@@ -37,7 +37,11 @@ main{
 
 footer{
     text-align: center;
+    color: black;
+}
 
+footer:hover{
+    color: #E04E14;
 }
 
 h1{
@@ -64,12 +68,12 @@ nav h2{
     text-decoration: none;
 }
 
-h2:hover{
+ nav h2:hover{
     color: #E04E14;
 }
 
 p{
-    font-family: Cormorant, serif;
+    font-family: 'Cormorant', serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -242,12 +246,20 @@ section{
 #walbaum_image{
     max-width: 300px;
     grid-column-start: 3;
+    display: block;
 }
 
 #walbaum_description{
     text-align: right;
     grid-column-start: 1;
     grid-column-end: 2;
+    display: block;
+}
+
+
+#about_logo{
+    text-align: left;
+    max-width: 200px;
 }
 
 #design_header {
@@ -286,7 +298,36 @@ header h2{
     background-size: cover;
 }
 
+input, textarea{
+    width: 100%;
+    background-color: #F3EFE9;
+    padding: 10px 16px 10px 16px;
+    font-family: 'Cormorant', serif;
+    border: 1px solid black;
+}
 
+label{
+    display: block;
+    margin: 16px;
+}
+
+textarea{
+    height: 320px;
+}
+
+button{
+    background-color: #F3EFE9;
+    font-family: 'Cormorant', serif;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: #E04E14;
+}
+
+#contact_title{
+    text-align: center;
+}
 
 
 /* flex-direction: row;
