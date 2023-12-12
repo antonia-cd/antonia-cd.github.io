@@ -211,14 +211,14 @@ section{
     text-align:left;
 }
 
-    #awe_in_nature_image{
-        grid-column-start:3;
-        max-width: 300px;
-    }
+#awe_in_nature_image{
+    grid-column-start:3;
+    max-width: 300px;
+}
 
-    #the_sublime_wave_image{
-        max-width: 300px;
-    }
+#the_sublime_wave_image{
+    max-width: 300px;
+}
 
 #awe_spread_2_description{
     grid-column-start: 5;
@@ -247,6 +247,7 @@ section{
     max-width: 300px;
     grid-column-start: 3;
     display: block;
+    margin-right: 150px;
 }
 
 #walbaum_description{
@@ -254,6 +255,23 @@ section{
     grid-column-start: 1;
     grid-column-end: 2;
     display: block;
+}
+
+#baskerville_image{
+    grid-column:2/5;
+}
+
+#baskerville_description{
+    grid-column: 6/10;
+}
+
+#franklin_image{
+    grid-column-start: 5;
+}
+
+#franklin_description{
+    grid-column-start:2;
+    text-align: right;
 }
 
 
